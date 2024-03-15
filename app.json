@@ -34,7 +34,8 @@
         "android.permission.READ_EXTERNAL_STORAGE",
         "android.permission.WRITE_EXTERNAL_STORAGE",
         "android.permission.ACCESS_MEDIA_LOCATION"
-      ]
+      ],
+      "package": "com.noeac.restAgles"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -53,6 +54,12 @@
       "eas": {
         "projectId": "b2c12ed8-4bc8-4c2b-86ec-22df728a372e"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/b2c12ed8-4bc8-4c2b-86ec-22df728a372e"
     }
   }
 }
